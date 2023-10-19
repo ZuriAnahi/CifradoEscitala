@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cifrado y Descifrado de la Escítala</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+  <div id="contenedor">
+    <h1>Cifrado de Escítala</h1>
+    <div class="contenedor-formulario">
+      <label for="mensajeEntrada">Mensaje:</label>
+      <input type="text" id="mensajeEntrada" placeholder="Mensaje a cifrar/descifrar">
+      <label for="numColumnas">Número de columnas:</label>
+      <input type="number" id="numColumnas" placeholder="Número de columnas">
+      <button id="cifrarBoton">Cifrar</button>
+      <button id="descifrarBoton">Descifrar</button>
+    </div>
+    <div class="contenedor-resultado">
+      <label for="mensajeSalida">Resultado:</label>
+      <input type="text" id="mensajeSalida" placeholder="Mensaje cifrado/descifrado" readonly>
+    </div>
+  </div>
+  <script src="funcion.js"></script>
+</body>
+</html>
